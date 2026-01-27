@@ -37,7 +37,7 @@ body:
     id: microsoft-alias
     attributes:
       label: "Microsoft Alias"
-      description: "Your Microsoft alias (e.g., johndoe)"
+      description: "Your Microsoft alias (e.g., johndoe) - Please mention all your members if you participated as a group"
       placeholder: "youralias"
     validations:
       required: true
@@ -46,7 +46,7 @@ body:
     id: github-username
     attributes:
       label: "GitHub Username"
-      description: "Your GitHub username"
+      description: "Your GitHub username - Please mention all your members if you participated as a group"
       placeholder: "@username"
     validations:
       required: true
