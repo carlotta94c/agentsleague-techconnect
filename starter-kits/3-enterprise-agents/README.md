@@ -7,6 +7,18 @@ Welcome to the Enterprise Agents track! In this challenge, you will build intell
 
 ---
 
+> [!IMPORTANT]
+> ## 🎒 Prerequisites - What to Bring
+> Before the hackathon, make sure you have the following ready:
+> 
+> | Requirement | Description |
+> |-------------|-------------|
+> | 💻 **Laptop** | Bring your own laptop with your preferred development environment |
+> | 🎫 **Microsoft 365 Copilot License** | You need an active Microsoft 365 Copilot license to test and deploy agents |
+> | 🏢 **Tenant with Sideloading Enabled** | Access to a Microsoft 365 tenant where you can sideload custom apps for testing |
+
+---
+
 ## 💡 Project Ideas
 
 In this track, we encourage you to create agents that extend **Microsoft 365 Copilot** using one of the following development approaches:
