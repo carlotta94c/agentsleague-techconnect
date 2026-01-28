@@ -31,125 +31,63 @@ In this track, we encourage you to create agents that extend **Microsoft 365 Cop
 
 3. **Copilot Studio** - Leverage Microsoft Copilot Studio to create powerful agents with a low-code/no-code experience. Copilot Studio provides a visual designer for building conversational agents that can be easily extended and customized to meet specific business needs.
 
-## How Your Solution Will Be Judged
+## Evaluation Summary 
 Your project will be evaluated across **three main dimensions**: Technical Implementation, Business Value, and Innovation & Creativity. Each dimension carries equal weight in determining the winners.
 
 ---
+### 🔧 Technical Implementation (33 points)
 
-## 🔧 Technical Implementation (33 points)
+#### Core Requirements
 
-### Core Requirements
+- ✅ Microsoft 365 Copilot Chat Agent (Required)
+**Pass/Fail - Must have to qualify**
 
-#### ✅ Microsoft 365 Copilot Chat Agent (Required)
-**Points: Pass/Fail - Must have to qualify**
-
-Your solution must include a functioning Copilot chat agent that users can interact with naturally.
-
-**What we're looking for:**
-- Agent responds to user queries in Microsoft 365 Copilot
-- Clear conversation flow and context understanding
-- Proper error handling and graceful fallbacks
-
-**Why it matters:** This is the foundation of the hackathon - every solution needs to extend Copilot's capabilities.
+Build a functioning Copilot chat agent with natural conversation flow, context understanding, and error handling.
 
 ---
 
-### Technical Excellence (Additional Points)
+#### Additional Points
 
-#### 🌐 External MCP Server Integration - Read/Write (8 points)
-**Status: Optional but highly encouraged**
+-  🌐 External MCP Server Integration (8 points)
 
-Connect your agent to external systems using Model Context Protocol (MCP) servers with both read and write capabilities.
-
-**What we're looking for:**
-- Successfully retrieves data from external sources (Read)
-- Can update or create data in external systems (Write)
-- Smooth data flow between Copilot and external services
-- Handles API responses appropriately
-
-**Examples:**
-- Read customer data from Salesforce, write meeting notes back
-- Fetch project status from Jira, create new tasks
-- Pull employee info from Workday, update training records
+Connect to external systems via MCP servers with read/write capabilities.
 
 **Scoring:**
-- Basic read-only integration: 3 points
-- Read + Write integration: 8 points
+- Read-only: 3 points
+- Read + Write: 8 points
 
 ---
 
-#### 🔐 OAuth Security for MCP Server (5 points)
-**Status: Optional**
+-  🔐 OAuth Security (5 points)
 
-Implement secure authentication using OAuth 2.0 for your MCP server connections.
-
-**What we're looking for:**
-- Proper OAuth 2.0 flow implementation
-- Secure token handling and storage
-- User consent and permission management
-- No hardcoded credentials or API keys
-
-**Why it matters:** Enterprise agents must handle data securely. OAuth shows production-ready security practices.
+Implement OAuth 2.0 authentication with secure token handling and proper consent management.
 
 **Scoring:**
-- Partial OAuth implementation (working flow, some security gaps): 2 points
-- Complete OAuth implementation with best practices: 5 points
+- Basic OAuth flow: 2 points
+- Complete implementation: 5 points
 
 ---
 
-#### 🎨 Adaptive Cards for UI/UX (5 points)
-**Status: Optional**
+- 🎨 Adaptive Cards (5 points)
 
-Use Adaptive Cards to create rich, interactive user experiences within the chat interface.
-
-**What we're looking for:**
-- Well-designed cards that present information clearly
-- Interactive elements (buttons, inputs, actions)
-- Responsive design that works across devices
-- Cards enhance the experience vs. plain text
-
-**Examples:**
-- Sales dashboard cards with drill-down actions
-- Approval request cards with approve/reject buttons
-- Form submissions with input validation
-- Multi-step wizards using card sequences
+Create rich, interactive UI with well-designed Adaptive Cards.
 
 **Scoring:**
-- Basic static cards: 2 points
-- Interactive cards with actions and good UX: 5 points
+- Static cards: 2 points
+- Interactive cards with actions: 5 points
 
 ---
 
-#### 🔗 Connected Agents Architecture (15 points)
-**Status: Higher Rating**
+-  🔗 Connected Agents (15 points)
 
-Build a solution where multiple specialized agents work together, or where your agent orchestrates complex multi-step workflows.
-
-**What we're looking for:**
-- Multiple agents with distinct responsibilities
-- Intelligent routing between agents
-- Shared context and conversation continuity
-- Graceful handoffs and escalation patterns
-
-**Examples:**
-- Sales agent → Finance agent → Legal agent for deal approval
-- HR agent delegates to Benefits, IT, and Payroll sub-agents
-- Support agent escalates to Engineering agent when needed
-- Workflow agent coordinates across CRM, email, and calendar
-
-**Architecture Patterns:**
-- **Hub-and-Spoke:** Central coordinator agent delegates to specialists (7-10 points)
-- **Pipeline:** Agents process sequentially, passing context (10-12 points)
-- **Autonomous:** Agents decide when to collaborate dynamically (12-15 points)
+Build multiple specialized agents that work together or orchestrate complex workflows.
 
 **Scoring:**
-- 2-3 connected agents with basic handoffs: 7 points
-- 3+ agents with smart routing and context sharing: 12 points
-- Advanced orchestration with autonomous decision-making: 15 points
+- 2-3 agents with basic handoffs: 7 points
+- 3+ agents with smart routing: 12 points
+- Advanced autonomous orchestration: 15 points
 
----
-
-### Technical Implementation Summary
+#### Technical Implementation Summary
 
 | Criterion | Points | Status | Copilot Studio | Declarative Agents (DA) with ATK | Custom Engine Agents (CEA) with ATK |
 |-----------|--------|--------|----------------|----------------|-----|
@@ -162,7 +100,7 @@ Build a solution where multiple specialized agents work together, or where your 
 
 ---
 
-## 💼 Business Value (33 points)
+### 💼 Business Value (33 points)
 
 **What we're looking for:**
 - Addresses a genuine pain point in your organization
@@ -171,7 +109,7 @@ Build a solution where multiple specialized agents work together, or where your 
 
 ---
 
-## 💡 Innovation & Creativity (34 points)
+### 💡 Innovation & Creativity (34 points)
 
 **What we're looking for:**
 - Non-obvious approach to the challenge
@@ -181,7 +119,7 @@ Build a solution where multiple specialized agents work together, or where your 
 
 ---
 
-## 📊 Final Scoring Overview
+### 📊 Final Scoring Overview
 
 | Dimension | Points | % of Total |
 |-----------|--------|-----------|
@@ -192,7 +130,7 @@ Build a solution where multiple specialized agents work together, or where your 
 
 ---
 
-### Real-World Enterprise Scenarios
+## Real-World Enterprise Scenarios
 
 If you like, take inspiration from the following real-world enterprise scenarios to guide your project:
 
