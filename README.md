@@ -25,13 +25,21 @@ An **in-person hackathon experience** combining:
 
 ## ⏰ Event Schedule
 
-| Time | Activity |
-|------|----------|
-| **0:00 - 0:10** | Welcome & Track Overview |
-| **0:10 - 1:50** | Build Your Agent (100 min) |
-| **1:50 - 2:00** | Final Submissions & Wrap-up |
+- **10 min** — Welcome & Track Overview
+- **100 min** — Build Your Agent
+- **10 min** — Final Submissions & Wrap-up
 
 *Winners will be announced after the event once judges review all submissions!*
+
+## Prerequisites
+
+Before you begin, make sure you have the following ready:
+
+- **💻 Laptop** — Bring your own device
+- **🔑 Tenant with M365 Copilot License, Microsoft Azure, and GitHub Copilot** — Required for building agents
+- **🛠️ VS Code installed** — Your development environment
+
+> 📋 **Note:** Each track has specific prerequisites. Check the starter kit for your chosen track for detailed setup instructions.
 
 ## Challenge Tracks
 
