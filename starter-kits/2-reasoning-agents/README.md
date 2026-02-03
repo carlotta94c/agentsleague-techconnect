@@ -12,11 +12,15 @@ Welcome to the Reasoning Agents track! In this challenge, you'll build intellige
 > ## 🎒 Prerequisites - What to Bring
 > Before the hackathon, make sure you have the following ready:
 > 
-> | Requirement | Description |
-> |-------------|-------------|
-> | 💻 **Laptop** | Bring your own laptop and make sure you have internet access |
-> | ☁️ **Azure Subscription** | With model quotas available for deploying reasoning models |
-> | 🧑‍💻 **A code editor** | A code editor is needed if you go with the code-first approach - Visual Studio code recommended|
+> | Requirement | Description | Applies To |
+> |-------------|-------------|------------|
+> | 💻 **Laptop** | Bring your own laptop and make sure you have internet access | Low-code & Code-first |
+> | ☁️ **Azure Subscription** | With GPT model quotas available for deploying reasoning models - 100k–300k TPM | Low-code & Code-first  |
+> | 🧑‍💻 **A code editor** | Visual Studio code recommended| Code-First |
+> | 🐍 **Python 3.10+** | If you plan to use the Python Foundry SDK, ensure Python 3.10 or higher is installed | Code-First |
+> | ⌨️ **Azure CLI** | Required for authentication when using the Python Foundry SDK | Code-First |
+> | 📦 **pip** | Python package manager needed to install the Foundry SDK and dependencies | Code-First |
+
 ---
 
 ## 🚀 Getting Started with Microsoft Foundry
